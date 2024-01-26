@@ -1,5 +1,15 @@
-@import url(_reset.scss);
-@import url(settings/_fonts.scss);
-@import url(settings/_colors.scss);
+@import "reset";
+@import "settings/fonts";
+@import "settings/colors";
+@import "header";
 
+body{
+    font-family: $font-base;
+    box-sizing: border-box;
+    .container{
+        width: 1900px;
+        margin: 0 auto;
+        background: bisque;
+    }
+}
 
